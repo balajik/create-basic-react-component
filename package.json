@@ -1,0 +1,31 @@
+{
+  "name": "generate-react-components",
+  "version": "1.0.0",
+  "description": "A CLI to create all the required files to build react components ",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balajik/generate-react-components.git"
+  },
+  "keywords": [
+    "CLI",
+    "React",
+    "components"
+  ],
+  "bin": {
+    "generate-react-components": "./index.mjs"
+  },
+  "author": "Balaji K <balaji6292@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balajik/generate-react-components/issues"
+  },
+  "homepage": "https://github.com/balajik/generate-react-components#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0"
+  }
+}
