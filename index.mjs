@@ -60,6 +60,6 @@ program
   .option('-p, --path [directory]', 'Directory path to create component. default: current working directory')
   .option('-ts, --typescript', 'Define component with or without typescript. default: without typescript')
   .arguments('<componentName>', 'Name of the component')
-  .showHelpAfterError('add component name as (generate-react-components Button)')
+  .showHelpAfterError('add component name as (create-basic-react-component Button)')
   .action(executeScript)
   .parse(process.argv);

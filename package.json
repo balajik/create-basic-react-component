@@ -1,5 +1,5 @@
 {
-  "name": "generate-react-components",
+  "name": "create-basic-react-component",
   "version": "1.0.0",
   "description": "A CLI to create all the required files to build react components ",
   "main": "index.mjs",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/balajik/generate-react-components.git"
+    "url": "git+https://github.com/balajik/create-basic-react-component.git"
   },
   "keywords": [
     "CLI",
@@ -16,14 +16,14 @@
     "components"
   ],
   "bin": {
-    "generate-react-components": "./index.mjs"
+    "create-basic-rc": "./index.mjs"
   },
   "author": "Balaji K <balaji6292@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/balajik/generate-react-components/issues"
+    "url": "https://github.com/balajik/create-basic-react-component/issues"
   },
-  "homepage": "https://github.com/balajik/generate-react-components#readme",
+  "homepage": "https://github.com/balajik/create-basic-react-component#readme",
   "dependencies": {
     "chalk": "^5.2.0",
     "commander": "^10.0.0"
