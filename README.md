@@ -1,2 +1,2 @@
-# generate-react-components
-A CLI to generate all the necessary files for a react component
+# create-basic-react-component
+A CLI to create all the necessary files for a react component
