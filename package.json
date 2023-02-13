@@ -1,7 +1,7 @@
 {
   "name": "create-basic-react-component",
-  "version": "1.0.0",
-  "description": "A CLI to create all the required files to build react components ",
+  "version": "1.0.1",
+  "description": "A CLI to create all the required files to build react components.",
   "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

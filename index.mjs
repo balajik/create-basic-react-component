@@ -55,11 +55,11 @@ const executeScript = (componentName, options) => {
 };
 
 program
-  .version('1.0.0', '-v, --vers', 'output the current version')
-  .option('-s, --styles [extension]', 'Component module styles extension. default: css')
-  .option('-p, --path [directory]', 'Directory path to create component. default: current working directory')
-  .option('-ts, --typescript', 'Define component with or without typescript. default: without typescript')
+  .version('1.0.0', '-v, --version', 'Output the current version')
+  .option('-s, --styles [extension]', 'Component module styles extension. [default: css]')
+  .option('-p, --path [directory]', 'Directory path to create component. [default: current working directory]')
+  .option('-ts, --typescript', 'Define component with or without typescript. [default: without typescript]')
   .arguments('<componentName>', 'Name of the component')
-  .showHelpAfterError('add component name as (create-basic-react-component Button)')
+  .showHelpAfterError('add component name as (create-basic-rc Button)')
   .action(executeScript)
   .parse(process.argv);
